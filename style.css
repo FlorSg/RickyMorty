@@ -1,0 +1,340 @@
+html{
+    box-sizing: border-box;
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Gloria Hallelujah", cursive;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 35px 51px 7px rgba(0,0,0,0.5);
+    border-bottom: 2px solid #000;
+    background: #222221;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+header a:hover{
+    color: #f3a600;
+    transition: ease-out 0.2s;
+}
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222221;
+}
+header img{
+    width:100%;
+    height: 100px;
+
+}
+header label{
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+}
+header select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1f1d18fd;
+    border: 1.5px solid #fff;
+    margin-left: 10px;
+}
+select option{
+    background-color: #f3a600;
+    color: #fff;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#f3a600;
+
+}
+article{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 27px 0px;
+    transition: ease-out 0.2s;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+article:hover{
+    box-shadow: 1px 2px 86px 31px rgba(247, 244, 244, 0.897);
+    transition: ease-out 0.2s;
+}
+article .container-img{
+    width: 100%;
+    position: sticky;
+}
+article img{
+    transition: ease-out 0.2s;
+    border-radius: 27px 0px;
+    width: 100%;
+}
+article img:hover{
+    transition: ease-out 0.2s;
+    filter: grayscale(100%);
+}
+article button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #f3a600;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    outline: none;
+    font-family: "Gloria Hallelujah", cursive;
+    margin-bottom: 15px;
+    font-weight: bold;
+    transition: ease-out 0.2s;
+}
+article button:hover{
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    transition: ease-out 0.2s;
+    background-color: #000;
+    color: #f1f1f1;
+}
+#pages{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3a600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+#pagination{
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f3a600;
+
+}
+#pagination button{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: ease-out 0.2s;
+    width: 40px;
+    height: 40px;
+}
+#pagination button:hover{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    transition: ease-out 0.2s;
+    transform: scale(1.1);
+    background-color: #000;
+    color: #f1f1f1;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(112, 211, 14);
+}
+footer strong{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(14, 198, 211);
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 30vh;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    article{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        border-radius: 27px 0px;
+        transition: ease-out 0.2s;
+        background-color: rgb(32, 32, 32);
+        color: #fff;
+        transition: ease-out 0.2s;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+    }
+
+  }
+  
+@media (max-width: 421px){
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.device{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
+article{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: space-between;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 27px 0px;
+    transition: ease-out 0.2s;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    transition: ease-out 0.2s;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    
+    }
+    article{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: space-between;
+        margin: 15px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        border-radius: 27px 0px;
+        transition: ease-out 0.2s;
+        background-color: rgb(32, 32, 32);
+        color: #fff;
+        transition: ease-out 0.2s;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+    }
+}

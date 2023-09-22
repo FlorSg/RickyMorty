@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick y Morty ADA - TP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Roboto+Mono:wght@200;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/37ef4fca07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="block">
+        <nav class="navbar">
+        <a href="landing.html"><<<</a>
+        <img src="./img/Rick_and_Morty.svg" alt="fuente-get-schwifty" >
+            <label for="gender-filter">Filtrar</label>
+            <select id="gender-filter">
+                <option value="">Todos</option>
+                <option value="female">Femenino</option>
+                <option value="male">Masculino</option>
+                <option value="genderless">Sin género</option>
+                <option value="unknown">Desconocido</option>
+            </select>
+        </nav>
+    </header>
+    <main class="device">
+        <!-- Cartas de Personajes -->
+    </main>
+    <div class="pages" id="pages">
+        <span id="current-page"></span>
+        <span id="total-pages"></span>
+    </div>
+    <div class="paginado" id="pagination">
+        <!-- Botones de paginado -->
+    </div>
+    <footer>
+        <div class="footer">
+            <p>@Proyecto Final ADA - Desarrollado por <strong>Florencia Sgroy</strong> 2023</p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
