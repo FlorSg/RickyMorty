@@ -16,16 +16,6 @@ header{
     border-bottom: 2px solid #000;
     background: #222221;
 }
-header a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-}
-header a:hover{
-    color: #f3a600;
-    transition: ease-out 0.2s;
-}
 header nav{
     width: 80%;
     display: flex;
